@@ -11,40 +11,12 @@
 
   <section>
     <h2>Only Target</h2>
-    <button class="fs-toggle" target="#example2">With Attr Target #example2</button>
-    <button class="fs-toggle" >WithOut Target</button>
+    <button data-fullscreen target="#example2">With Attr Target #example2</button>
+    <button data-fullscreen >WithOut Target data-fs-toggle</button>
   </section>
 
 
-  <section>
-    <h2>Full Screen Document</h2>
-    <button class="fs-toggle">Go Fullscreen PAGE</button>
-    <button class="fs-exit-page-button">Exit Fullscreen PAGE</button>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>Full Screen Videos</h2>
-    <video id="video" width="640" height="365" controls>
-      <source src="http://demos.mattwest.io/page-visibility-demo/videos/mikethefrog.webm" type="video/webm">
-      <source src="http://demos.mattwest.io/page-visibility-demo/videos/mikethefrog.ogv" type="video/ogv">
-      <source src="http://demos.mattwest.io/page-visibility-demo/videos/mikethefrog.mp4" type="video/mp4">
-      <p>
-        Your browser doesn't support HTML5 video.
-        <a href="http://demos.mattwest.io/page-visibility-demo/videos/mikethefrog.mp4">Download</a> the video instead.
-      </p>
-    </video>
-    <button class="fs-toggle" target="#video">Go Fullscreen VIDEO</button>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>Full Screen Images</h2>
-    <img id="image" src="https://lh4.googleusercontent.com/-2dRSJbAmbqI/UTNLAOtCFII/AAAAAAAACqw/y3nrKoL06O8/w899-h674-no/100_0456.JPG" alt="Test Image">
-    <button class="fs-toggle" target="#image">Go Fullscreen IMG</button>
-  </section>
+  
 
   <style type="text/css">
     #example2{
@@ -52,7 +24,6 @@
       }
   </style>
   <section>
-    <button class="fs-toggle" target="#example2">Go Fullscreen DIV</button>
     <div id="example2" class="box ">
       <h2>#exemple2</h2>
 

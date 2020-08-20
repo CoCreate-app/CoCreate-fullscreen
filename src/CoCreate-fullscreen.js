@@ -43,39 +43,50 @@ var requestFullscreen = function (ele) {
     requestFullscreen(target);
   }
   
-  var list_fs_target_button = document.getElementsByClassName("fs-toggle")
+  Boolean.parse = function (str) {
+  switch (str.toLowerCase ()) {
+    case "true":
+      return true;
+    case "false":
+      return false;
+    default:
+      return false;
+      //throw new Error ("Boolean.parse: Cannot convert string to boolean.");
+  }
+};
+  
+  let list_fs_target_button = document.querySelectorAll('[data-fullscreen]');
+  
+  document.addEventListener('fullscreenchange', (event) => {
+    //list_fs_target_button_true = document.querySelectorAll('[data-fullscreen="true"]');
+    let list_fs_target_button_true = document.querySelectorAll('[data-fullscreen="true"]');
+    list_fs_target_button_true.forEach(elem =>{
+          //elem.dataset['fullscreen'] = document.fullscreenElement!=null
+          console.log("evetn ",document.fullscreenElement)
+          if(document.fullscreenElement==null){
+          console.log("LOG fullscreen")
+            elem.dataset['fullscreen'] = false
+          }
+    });
+  });
+  
   for (let item of list_fs_target_button) {
       item.addEventListener("click", function(event) {
-        //console.log(item)
-        FullscreenItem(item)
-      });
-      item.addEventListener("click", function(event) {
+        console.log("primero ",item.dataset['fullscreen'])
+        if(document.fullscreenElement==null)
+          item.dataset['fullscreen'] = false
+        var action = typeof item.dataset['fullscreen'] != 'undefined' ? Boolean.parse(item.dataset['fullscreen']) : false
+        console.log("action ",action)
+        /*list_fs_target_button.forEach(elem =>{
+          elem.dataset['fullscreen'] = !action
+        })*/
+        item.dataset['fullscreen'] = !action
+        console.log("primero ",item.dataset['fullscreen'])
+        if(!action){
+          FullscreenItem(item)
+        }
+        else{
           exitFullscreen(item);
-        });
+        }
+      });
   }
-  //var list_fs_exit_button = document.getElementsByClassName("fs-exit-page-button")
-  var list_fs_exit_button = document.querySelectorAll(".fs-exit-page-button")
-  //console.log(list_fs_exit_button)
-  list_fs_exit_button.forEach(item=>{
-    item.addEventListener("click", function(event) {
-      exitFullscreen(item);
-    });
-  })
-
-/*
-document.addEventListener("fullscreenchange", function () {
-    console.log('-')
-}, false);
-
-document.addEventListener("mozfullscreenchange", function () {
-    console.log('-')
-}, false);
-
-document.addEventListener("webkitfullscreenchange", function () {
-    console.log('-')
-}, false);
-
-document.addEventListener("msfullscreenchange", function () {
-    console.log('-')
-}, false);
-*/
