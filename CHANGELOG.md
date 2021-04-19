@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.1...v1.0.2) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([5ce24be](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/5ce24be5060f4a898b2ff609f758bf39148b5b49))
+* npm publish and cdn deployment ([773338c](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/773338c62fc80303d4579e61851886f95605cbd3))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.0...v1.0.1) (2021-03-29)
 
 
