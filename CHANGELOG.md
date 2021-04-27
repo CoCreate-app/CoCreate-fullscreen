@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.3...v1.0.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([c583819](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/c5838192aa1611e574e083b570b99f8960492ddc))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.2...v1.0.3) (2021-04-23)
 
 
