@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.4...v1.0.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([3cb9fed](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/3cb9fedd5dbd4823f8a6bacd0bec92ba61b467a0))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.3...v1.0.4) (2021-04-27)
 
 
