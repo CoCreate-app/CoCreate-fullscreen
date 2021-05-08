@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.5...v1.0.6) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([9f400c1](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/9f400c14a8aac0407d8705ce19d164fcdc994a09))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.4...v1.0.5) (2021-04-27)
 
 
