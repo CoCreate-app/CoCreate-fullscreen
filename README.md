@@ -1,6 +1,6 @@
 # CoCreate-fullscreen
 
-A simple fullscreen component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/fullscreen)
+Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the data-fullscreen and target attribute. Take it for a spin in our [playground!](https://cocreate.app/docs/fullscreen)
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-fullscreen/dist/CoCreate-fullscreen.min.js?label=minified%20size&style=for-the-badge)
 ![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-fullscreen?style=for-the-badge)

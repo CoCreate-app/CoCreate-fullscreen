@@ -1,7 +1,7 @@
 {
   "name": "@cocreate/fullscreen",
   "version": "1.0.5",
-  "description": "A simple fullscreen component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Target attribute to define an id of the element you would like to view in fullscreen. If target attribute is not used then will default to the body tag will open in fullscreen.",
+  "description": "Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the data-fullscreen and target attribute.",
   "keywords": [
     "fullscreen",
     "cocreate",
