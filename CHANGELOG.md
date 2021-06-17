@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.6...v1.0.7) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([8c6839b](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/8c6839b98ea0373e002e85a06797feff14a74a72))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.5...v1.0.6) (2021-05-08)
 
 
