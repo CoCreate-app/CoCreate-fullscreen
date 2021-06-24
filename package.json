@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/fullscreen",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the data-fullscreen and target attribute.",
   "keywords": [
     "fullscreen",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
