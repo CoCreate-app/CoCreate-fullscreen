@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.13...v1.0.14) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([45c5b40](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/45c5b406e1924b144d663c3ef74fed745da20f4d))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.12...v1.0.13) (2021-07-07)
 
 
