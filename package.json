@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/fullscreen",
-  "version": "1.0.14",
+  "version": "1.0.16",
   "description": "Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the data-fullscreen and target attribute.",
   "keywords": [
     "fullscreen",
@@ -61,6 +61,6 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/docs": "^1.1.29"
+    "@cocreate/docs": "^1.1.32"
   }
 }

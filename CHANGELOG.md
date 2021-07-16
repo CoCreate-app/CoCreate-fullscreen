@@ -1,3 +1,18 @@
+## [1.0.16](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.15...v1.0.16) (2021-07-14)
+
+
+### Bug Fixes
+
+* upgrade all packages ([e72efc2](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e72efc26aaea6c4345fe2b8e708a721030bb5942))
+
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.14...v1.0.15) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([975979a](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/975979abb32abc9899cbcb7f76189e7809307f0f))
+* remove yarn.lock ([e7dae9e](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e7dae9e10b78600f56bc60291273e82427f87ec2))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.13...v1.0.14) (2021-07-10)
 
 
