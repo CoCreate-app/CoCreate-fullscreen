@@ -1,3 +1,11 @@
+## [1.0.17](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.16...v1.0.17) (2021-07-17)
+
+
+### Bug Fixes
+
+* init and update demos scripts ([ae5f261](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/ae5f261313d96767b492df9447ec5a39864de3d6))
+* workflows ([05a0886](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/05a0886cdfd3e3ef08c340e2d2f1e8ed4b052934))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.15...v1.0.16) (2021-07-14)
 
 
