@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.0...v1.1.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([45f7ffd](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/45f7ffdaed1a1ad72b050c90a9555026d0887f05))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.17...v1.1.0) (2021-07-28)
 
 
