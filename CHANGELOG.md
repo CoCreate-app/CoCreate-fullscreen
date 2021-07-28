@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.17...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([12ee943](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/12ee943a53af79b8cb1b3992e7efe175f3dd039a))
+
 ## [1.0.17](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.0.16...v1.0.17) (2021-07-17)
 
 
