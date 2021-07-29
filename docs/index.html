@@ -34,7 +34,7 @@
                 <h2>CoCreate-fullscreen</h2>
             </div>
             <div class="display:flex align-items:center font-size:20px position:absolute right:0 padding:5px background:white">
-                <div class="display:flex align-items:center transition:0.3s padding-left:10px" data-share_network="true" data-share_text="Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the data-fullscreen and target attribute."
+                <div class="display:flex align-items:center transition:0.3s padding-left:10px" data-share_network="true" data-share_text="Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the fullscreen and target attribute."
                     data-share_title="CoCreate Fullscreen" data-share_height="600" data-share_width="700" data-share_media="https://cdn.cocreate.app/docs/fullscreen.png" data-hover="display:block!important" data-hover_target=".social-networks">
                     <div class="display:none social-networks">
                         <a class="margin-right:15px" data-share_network='twitter' title="Share on twitter"><i class="fab fa-twitter"></i></a>
@@ -48,7 +48,7 @@
             <a href="https://github.com/CoCreate-app/CoCreate-fullscreen" target="_blank" class="margin-right:15px"><i class="fab fa-github"></i></a>
         </div>
         </div>
-        <h1 class="max-width:500px margin:20px_10px line-height:1.5 font-size:16px font-weight:100">Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the data-fullscreen and target attribute.</h1>
+        <h1 class="max-width:500px margin:20px_10px line-height:1.5 font-size:16px font-weight:100">Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the fullscreen and target attribute.</h1>
         <div id="fullscreen-section" class="display:flex flex-wrap:wrap">
             <div class="flex-grow:1 width:400px width:300px@xs padding:0px_10px margin-top:60px">
                 <div id="fullscreen-install" class="border-bottom:1px_solid_lightgrey" data-scroll data-scroll_intersect="color:dodgerblue" data-scroll_target="#fullscreen-install-section">
@@ -80,8 +80,8 @@
                                       &lt;/style&gt;
                                       &lt;section&gt;
                                         &lt;h2&gt;Only Target&lt;/h2&gt;
-                                        &lt;button data-fullscreen target=&quot;#example2&quot;&gt;With Attr Target&lt;/button&gt;
-                                        &lt;button data-fullscreen &gt;WithOut Target&lt;/button&gt;
+                                        &lt;button fullscreen target=&quot;#example2&quot;&gt;With Attr Target&lt;/button&gt;
+                                        &lt;button fullscreen &gt;WithOut Target&lt;/button&gt;
                                       &lt;/section&gt;
                                       &lt;section&gt;
                                         &lt;div id=&quot;example2&quot; class=&quot;box &quot;&gt;
@@ -104,7 +104,7 @@
                 </div>
                 <ul class="list-style-type:none ">
                     <li class="padding:15px_0px border-bottom:1px_solid_lightgrey">
-                        <h4><span>data-fullscreen</span> <span class="cocreate-badge success">boolean</span> <span class="cocreate-badge danger">required</span></h4>
+                        <h4><span>fullscreen</span> <span class="cocreate-badge success">boolean</span> <span class="cocreate-badge danger">required</span></h4>
                         <p>true</p>
                     </li>
                 </ul>
@@ -128,7 +128,7 @@
                                 modal-header="false" class="margin-right:10px">
     				  	    <i class="fas fa-external-link-alt"></i>
     				     </a>
-                            <a class="margin-right:5px" data-fullscreen target="#playground-1"><i class="fas fa-expand"></i></a>
+                            <a class="margin-right:5px" fullscreen target="#playground-1"><i class="fas fa-expand"></i></a>
                         </div>
 
                         <div class="svRow">

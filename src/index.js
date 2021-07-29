@@ -55,17 +55,17 @@ var requestFullscreen = function (ele) {
   }
 };
   
-  let list_fs_target_button = document.querySelectorAll('[data-fullscreen]');
+  let list_fs_target_button = document.querySelectorAll('[fullscreen]');
   
   document.addEventListener('fullscreenchange', (event) => {
-    //list_fs_target_button_true = document.querySelectorAll('[data-fullscreen="true"]');
-    let list_fs_target_button_true = document.querySelectorAll('[data-fullscreen="true"]');
+    //list_fs_target_button_true = document.querySelectorAll('[fullscreen="true"]');
+    let list_fs_target_button_true = document.querySelectorAll('[fullscreen="true"]');
     list_fs_target_button_true.forEach(elem =>{
           //elem.dataset['fullscreen'] = document.fullscreenElement!=null
           console.log("evetn ",document.fullscreenElement)
           if(document.fullscreenElement==null){
           console.log("LOG fullscreen")
-            elem.dataset['fullscreen'] = false
+            elem.setAttribute('fullscreen', false)
           }
     });
   });
@@ -74,7 +74,7 @@ var requestFullscreen = function (ele) {
       item.addEventListener("click", function(event) {
         console.log("primero ",item.dataset['fullscreen'])
         if(document.fullscreenElement==null)
-          item.dataset['fullscreen'] = false
+          item.setAttribute('fullscreen', false)
         var action = typeof item.dataset['fullscreen'] != 'undefined' ? Boolean.parse(item.dataset['fullscreen']) : false
         console.log("action ",action)
         /*list_fs_target_button.forEach(elem =>{

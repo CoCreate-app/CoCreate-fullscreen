@@ -1,6 +1,6 @@
 # CoCreate-fullscreen
 
-Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the data-fullscreen and target attribute. Take it for a spin in our [playground!](https://cocreate.app/docs/fullscreen)
+Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the fullscreen and target attribute. Take it for a spin in our [playground!](https://cocreate.app/docs/fullscreen)
 
 ![minified](https://img.badgesize.io/https://cdn.cocreate.app/fullscreen/latest/CoCreate-fullscreen.min.js?style=flat-square&label=minified&color=orange)
 ![gzip](https://img.badgesize.io/https://cdn.cocreate.app/fullscreen/latest/CoCreate-fullscreen.min.js?compression=gzip&style=flat-square&label=gzip&color=yellow)
