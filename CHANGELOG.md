@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.7...v1.1.8) (2021-08-31)
+
+
+### Bug Fixes
+
+* update dependencies ([caaf9f2](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/caaf9f2674ec86ad804ec1ca93404e9391e7c7f1))
+
 ## [1.1.7](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.6...v1.1.7) (2021-08-27)
 
 
