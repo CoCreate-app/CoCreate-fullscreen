@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.10...v1.1.11) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([478b5f6](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/478b5f61d262d3b59c17e92da67703bbfaf20389))
+
 ## [1.1.10](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.9...v1.1.10) (2021-09-08)
 
 
