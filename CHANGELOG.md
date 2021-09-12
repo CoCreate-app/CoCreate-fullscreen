@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.14...v1.1.15) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([0f9a80a](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/0f9a80acca59c1ac6524b31826302b3a74617afd))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.13...v1.1.14) (2021-09-09)
 
 
