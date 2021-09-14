@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.16...v1.1.17) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([913bf8d](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/913bf8d9e741356994175739847b54aab0167bd2))
+
 ## [1.1.16](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.15...v1.1.16) (2021-09-13)
 
 
