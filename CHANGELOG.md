@@ -1,3 +1,10 @@
+## [1.1.31](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.30...v1.1.31) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([4f263f2](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/4f263f27e7bf5f64fd895bf003053ccfcb18e250))
+
 ## [1.1.30](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.29...v1.1.30) (2021-10-15)
 
 
