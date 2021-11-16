@@ -1,3 +1,10 @@
+## [1.1.40](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.39...v1.1.40) (2021-11-16)
+
+
+### Bug Fixes
+
+* update dependencies ([ea4d168](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/ea4d168b45c51fa36eec59d1ad2a1c016a3ae8cd))
+
 ## [1.1.39](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.38...v1.1.39) (2021-11-15)
 
 
