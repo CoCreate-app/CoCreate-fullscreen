@@ -1,3 +1,10 @@
+## [1.1.44](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.43...v1.1.44) (2021-11-20)
+
+
+### Bug Fixes
+
+* updated script tags and link tags ([3b68878](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/3b688788fbced5bd94ac554e55429302b7360cd4))
+
 ## [1.1.43](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.42...v1.1.43) (2021-11-20)
 
 
