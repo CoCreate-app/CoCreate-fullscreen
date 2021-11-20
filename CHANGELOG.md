@@ -1,3 +1,10 @@
+## [1.1.45](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.44...v1.1.45) (2021-11-20)
+
+
+### Bug Fixes
+
+* remove cdn.CoCreate.min.css ([92a6abf](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/92a6abf701c0f871671cc6dbeedfe7b8304e1254))
+
 ## [1.1.44](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.43...v1.1.44) (2021-11-20)
 
 
