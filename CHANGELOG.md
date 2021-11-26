@@ -1,3 +1,10 @@
+## [1.1.48](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.47...v1.1.48) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([744cd27](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/744cd27f30d9649ff9ec5bc7781649328b96b753))
+
 ## [1.1.47](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.46...v1.1.47) (2021-11-26)
 
 
