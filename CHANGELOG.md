@@ -1,3 +1,10 @@
+## [1.1.49](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.48...v1.1.49) (2021-11-27)
+
+
+### Bug Fixes
+
+* update docs api and cocreateJS script ([c92e7e7](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/c92e7e7c33ef55705dac592c0230305fea639122))
+
 ## [1.1.48](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.47...v1.1.48) (2021-11-26)
 
 
