@@ -1,3 +1,10 @@
+## [1.1.61](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.60...v1.1.61) (2022-02-24)
+
+
+### Bug Fixes
+
+* CoCreate.config replace CoCreate.app with * ([e154eae](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e154eaeea115f4e1b4338377cda0dd9e09966854))
+
 ## [1.1.60](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.59...v1.1.60) (2022-02-16)
 
 
