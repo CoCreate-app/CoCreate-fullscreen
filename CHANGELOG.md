@@ -1,3 +1,10 @@
+## [1.1.62](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.61...v1.1.62) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([94604fe](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/94604fefbed85c9ef6218fdeb3a442269970dd42))
+
 ## [1.1.61](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.60...v1.1.61) (2022-02-24)
 
 
