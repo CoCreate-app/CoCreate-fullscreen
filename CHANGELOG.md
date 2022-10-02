@@ -1,3 +1,10 @@
+## [1.1.74](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.73...v1.1.74) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([04b4b79](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/04b4b7984c32171672120035f48e4b7120e3217a))
+
 ## [1.1.73](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.72...v1.1.73) (2022-10-01)
 
 
