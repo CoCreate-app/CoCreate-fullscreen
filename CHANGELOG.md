@@ -1,3 +1,10 @@
+## [1.1.78](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.77...v1.1.78) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([0c20a86](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/0c20a86df0c2e25eccc45e56f57afa6a39761111))
+
 ## [1.1.77](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.76...v1.1.77) (2022-11-21)
 
 
