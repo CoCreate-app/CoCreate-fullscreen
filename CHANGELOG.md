@@ -1,3 +1,10 @@
+## [1.1.81](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.80...v1.1.81) (2022-11-22)
+
+
+### Bug Fixes
+
+* workflow docs ([d465609](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/d465609507ab8688ed9eaf2c54d0465f0618b69e))
+
 ## [1.1.80](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.79...v1.1.80) (2022-11-22)
 
 
