@@ -1,3 +1,10 @@
+## [1.1.80](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.79...v1.1.80) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([9b24f75](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/9b24f752e0e25892ac28fc4f4ddf18be11a14bb4))
+
 ## [1.1.79](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.78...v1.1.79) (2022-11-21)
 
 
