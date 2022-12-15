@@ -1,3 +1,10 @@
+## [1.1.99](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.98...v1.1.99) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([f7233af](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/f7233af70ce02aae89bfaa9800a40ca6ba50ea1c))
+
 ## [1.1.98](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.97...v1.1.98) (2022-12-13)
 
 
