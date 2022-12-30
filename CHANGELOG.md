@@ -1,3 +1,10 @@
+## [1.1.108](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.107...v1.1.108) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([b15fbdd](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/b15fbdd7998f9f64f4f22a45d3badf914d43239d))
+
 ## [1.1.107](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.106...v1.1.107) (2022-12-29)
 
 
