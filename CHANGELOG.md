@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.120...v1.2.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([6d34a05](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/6d34a056a5c4ea3573d6d1e37d82ac06234e26de))
+
 ## [1.1.120](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.1.119...v1.1.120) (2023-02-01)
 
 
