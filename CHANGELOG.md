@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.3.0...v1.3.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([0182a79](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/0182a7938d1e2f1f12d2ad36d7df3fe4bd5d7fed))
+
 # [1.3.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.2.6...v1.3.0) (2023-04-24)
 
 
