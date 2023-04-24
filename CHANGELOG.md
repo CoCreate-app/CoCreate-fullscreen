@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.2.6...v1.3.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([aea0876](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/aea0876453d60d2ab52638ddae756b64e12b2cfd))
+
 ## [1.2.6](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.2.5...v1.2.6) (2023-04-11)
 
 
