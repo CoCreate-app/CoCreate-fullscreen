@@ -1,3 +1,11 @@
+## [1.3.3](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.3.2...v1.3.3) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([7e427e4](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/7e427e467a8224fd84cab1413400ceca939b99c9))
+* workflow node version updated  16 ([6589858](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/658985889d090e59459e9d1ff51e4ea25d149051))
+
 ## [1.3.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.3.1...v1.3.2) (2023-04-24)
 
 
