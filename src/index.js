@@ -1,96 +1,113 @@
-	/*!
- * https://cocreate.app
- * https://github.com/CoCreate-app/Fullscreen_Toggle
- * Released under the MIT license
- * https://github.com/CoCreate-app/Fullscreen_Toggle/blob/master/LICENSE
- */	
+/*!
+* https://cocreate.app
+* https://github.com/CoCreate-app/Fullscreen_Toggle
+* Released under the MIT license
+* https://github.com/CoCreate-app/Fullscreen_Toggle/blob/master/LICENSE
+*/
+import observer from '@cocreate/observer';
 
-var requestFullscreen = function (ele) {
-    if (!document.fullscreenElement){
-      if (ele.requestFullscreen) {
-        ele.requestFullscreen();
-      } else if (ele.webkitRequestFullscreen) {
-        ele.webkitRequestFullscreen();
-      } else if (ele.mozRequestFullScreen) {
-        ele.mozRequestFullScreen();
-      } else if (ele.msRequestFullscreen) {
-        ele.msRequestFullscreen();
-      } else {
-        console.log('Fullscreen API is not supported.');
-      }
-    }
-};
-
-var exitFullscreen = function (item) {
-  if (document.fullscreenElement){
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    } else if (document.mozCancelFullScreen) {
-      document.mozCancelFullScreen();
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen();
-    } else {
-      console.log('Fullscreen API is not supported.');
-    }
-    //FullscreenItem(item)
-  }
-};
-
-var FullscreenItem = function (item) {
-  //item = event.target;
-  var target = item.getAttribute("target") == null ? document.documentElement : document.querySelector(item.getAttribute("target"))
-  //console.log('target => ',target)
-  requestFullscreen(target);
+function init() {
+    let elements = document.querySelectorAll('[fullscreen]');
+    initElements(elements)
 }
-  
-Boolean.parse = function (str) {
-  switch (str.toLowerCase ()) {
-    case "true":
-      return true;
-    case "false":
-      return false;
-    default:
-      return false;
-      //throw new Error ("Boolean.parse: Cannot convert string to boolean.");
-  }
-};
-  
-let list_fs_target_button = document.querySelectorAll('[fullscreen]');
-  
+
+function initElements(elements) {
+    for (let element of elements) {
+        element.addEventListener("click", function (event) {
+            let isFullscreen = element.getAttribute('fullscreen')
+            if (!isFullscreen || isFullscreen === 'false') {
+                const fullscreenTarget = element.getAttribute('fullscreen-target');
+                const fullscreenClosest = element.getAttribute('fullscreen-closest');
+                const fullscreenParent = element.getAttribute('fullscreen-parent');
+                const fullscreenNext = element.getAttribute('fullscreen-next');
+                const fullscreenPrevious = element.getAttribute('fullscreen-previous');
+            
+                let target = element;
+                if (fullscreenTarget)
+                    target = document.querySelector(fullscreenTarget)
+                else if (fullscreenClosest)
+                    target = element.closest(fullscreenClosest)
+                else if (fullscreenParent)
+                    target = element.parentElement.querySelector(fullscreenParent)
+                else if (fullscreenNext)
+                    target = element.nextElementSibling.querySelector(fullscreenNext)
+                else if (fullscreenPrevious)
+                    target = element.previousElementSibling.querySelector(fullscreenPrevious)
+                if (target) {
+                    element.setAttribute('fullscreen', true)
+                    requestFullscreen(target);
+                }
+            } else {
+                element.setAttribute('fullscreen', false)      
+                exitFullscreen();
+            }
+        });
+    }
+}
+
 document.addEventListener('fullscreenchange', (event) => {
-  //list_fs_target_button_true = document.querySelectorAll('[fullscreen="true"]');
-  let list_fs_target_button_true = document.querySelectorAll('[fullscreen="true"]');
-  list_fs_target_button_true.forEach(elem =>{
-        //elem.dataset['fullscreen'] = document.fullscreenElement!=null
-        console.log("evetn ",document.fullscreenElement)
-        if (document.fullscreenElement==null){
-        console.log("LOG fullscreen")
-          elem.setAttribute('fullscreen', false)
-        }
-  });
-});
-  
-for (let item of list_fs_target_button) {
-    item.addEventListener("click", function(event) {
-      console.log("primero ",item.dataset['fullscreen'])
-      if (document.fullscreenElement==null)
-        item.setAttribute('fullscreen', false)
-      var action = typeof item.dataset['fullscreen'] != 'undefined' ? Boolean.parse(item.dataset['fullscreen']) : false
-      console.log("action ",action)
-      /*list_fs_target_button.forEach(elem =>{
-        elem.dataset['fullscreen'] = !action
-      })*/
-      item.dataset['fullscreen'] = !action
-      console.log("primero ",item.dataset['fullscreen'])
-      if (!action){
-        FullscreenItem(item)
-      }
-      else{
-        exitFullscreen(item);
-      }
-    });
-}
+    if (document.fullscreenElement == null) {
+        let elements = document.querySelectorAll('[fullscreen="true"]');
+        elements.forEach(elem => {
+            elem.setAttribute('fullscreen', false)
+        });
+    }
 
-export default {requestFullscreen, exitFullscreen}
+});
+
+function requestFullscreen(element) {
+    if (!document.fullscreenElement) {
+        if (element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if (element.webkitRequestFullscreen) {
+            element.webkitRequestFullscreen();
+        } else if (element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();
+        } else if (element.msRequestFullscreen) {
+            element.msRequestFullscreen();
+        } else {
+            console.log('Fullscreen API is not supported.');
+        }
+    }
+};
+
+function exitFullscreen() {
+    if (document.fullscreenElement) {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        } else {
+            console.log('Fullscreen API is not supported.');
+        }
+    }
+};
+
+
+observer.init({
+    name: 'CoCreateFullscreen',
+    observe: ['addedNodes'],
+    target: '[fullscreen]',
+    callback: mutation => 
+        initElements([mutation.target])
+});
+
+observer.init({
+	name: 'CoCreateFullscreen',
+	observe: ['attributes'],
+	attributeName: ['fullscreen'],
+	target: '[fullscreen]',
+	callback: mutation => {
+        if (mutation.oldValue === null)
+            initElements([mutation.target])
+    }
+});
+
+
+init()
+
+export default { requestFullscreen, exitFullscreen }
