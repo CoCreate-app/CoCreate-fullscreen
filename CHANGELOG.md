@@ -1,3 +1,19 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.3.3...v1.4.0) (2023-04-30)
+
+
+### Bug Fixes
+
+* add css content icon to react to fullscreen true | false attributes ([d310def](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/d310def8a5725fd544c20770fab31d8289e6089f))
+* fullscreen target updated to fullscreen fullscreen-target ([9c890e5](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/9c890e5c3ef1b82c453cfd4a3c6c5c8f0262aeef))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([e1be79d](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e1be79dc524fe1d89aea87137edadbe0debf5d05))
+* removed app.js ([4513f6b](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/4513f6bb38ec865218cc8d176dab6bfab15bf371))
+* removed toogle fullscreen icons. now using css content ([f9840b7](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/f9840b7c626c6bc7565ca6ebcbcc94aee71be538))
+
+
+### Features
+
+* support for target, closest, parent, next, previous attributes ([dc1bc57](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/dc1bc57548deba0e354008ecf11a87c908f1abc3))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.3.2...v1.3.3) (2023-04-24)
 
 

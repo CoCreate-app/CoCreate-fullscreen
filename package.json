@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/fullscreen",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "description": "Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the fullscreen and target attribute.",
   "keywords": [
     "fullscreen",
