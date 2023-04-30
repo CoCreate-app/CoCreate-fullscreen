@@ -5,6 +5,7 @@
 * https://github.com/CoCreate-app/Fullscreen_Toggle/blob/master/LICENSE
 */
 import observer from '@cocreate/observer';
+import './index.css';
 
 function init() {
     let elements = document.querySelectorAll('[fullscreen]');
