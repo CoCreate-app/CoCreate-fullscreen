@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.4.0...v1.5.0) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([c03f3df](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/c03f3df9504b82aa65786e58ac989cda21573bbf))
+
+
+### Features
+
+* css to show and hide icon based on true or false value from attribute fullscreen ([1874df7](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/1874df7c7d9b4bee694ed4f1c6620ade6d009bf2))
+
 # [1.4.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.3.3...v1.4.0) (2023-04-30)
 
 
