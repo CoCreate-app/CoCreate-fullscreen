@@ -1,11 +1,13 @@
-a[fullscreen]:before {
-    font-family: 'Font Awesome 5 Free';
-    content: "\f065";
-    font-weight: 900;
+a[fullscreen] i:last-child {
+    display: none
+}
+a[fullscreen=true] i:first-child {
+    display: none
+}
+a[fullscreen=true] i:last-child {
+    display: unset
 }
 
-a[fullscreen=true]:before {
-    font-family: 'Font Awesome 5 Free';
-    content: "\f066";
-    font-weight: 900;
+:not(:root):fullscreen::backdrop {
+    background: none;
 }

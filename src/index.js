@@ -23,7 +23,7 @@ function initElements(elements) {
                 const fullscreenNext = element.getAttribute('fullscreen-next');
                 const fullscreenPrevious = element.getAttribute('fullscreen-previous');
             
-                let target = element;
+                let target = document.body;
                 if (fullscreenTarget)
                     target = document.querySelector(fullscreenTarget)
                 else if (fullscreenClosest)
