@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.0...v1.5.1) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([ba6e258](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/ba6e25839cc86b79a2dc1d8cfdaf7d43d64933a6))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.4.0...v1.5.0) (2023-05-01)
 
 
