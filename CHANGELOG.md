@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.2...v1.5.3) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([5ad4e86](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/5ad4e8615101262e0ab4150c72d0adddb8d89c06))
+
 ## [1.5.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.1...v1.5.2) (2023-05-06)
 
 
