@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.3...v1.5.4) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([7f7a7f3](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/7f7a7f3679d4fb55cd1b59e31592df9f57eab382))
+
 ## [1.5.3](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.2...v1.5.3) (2023-05-10)
 
 
