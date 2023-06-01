@@ -35,22 +35,22 @@
                 <div class="display:flex align-items:center transition:0.3s padding-left:10px" share-network="true" share-text="Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the fullscreen and target attribute."
                     share-title="CoCreate Fullscreen" share-height="600" share-width="700" share-media="https://cdn.cocreate.app/docs/fullscreen.png" hover="display:block!important" hover-target=".social-networks">
                     <div class="display:none social-networks">
-                        <a class="margin-right:15px" share-network='twitter' title="Share on twitter"><i class="height:20px fill:#505050" src="/assets/svg/twitter.svg"></i></a>
-                        <a class="margin-right:15px" share-network='facebook' title="Share on Facebook"><i class="height:20px fill:#505050" src="/assets/svg/facebook.svg"></i></a>
-                        <a class="margin-right:15px" share-network='instagram' title="Share on instagram"><i class="height:20px fill:#505050" src="/assets/svg/instagram.svg"></i></a>
+                        <a class="margin-right:15px" share-network="twitter" title="Share on twitter"><i class="height:20px fill:#505050" src="/assets/svg/twitter.svg"></i></a>
+                        <a class="margin-right:15px" share-network="facebook" title="Share on Facebook"><i class="height:20px fill:#505050" src="/assets/svg/facebook.svg"></i></a>
+                        <a class="margin-right:15px" share-network="instagram" title="Share on instagram"><i class="height:20px fill:#505050" src="/assets/svg/instagram.svg"></i></a>
                     </div>
-                    <a class="margin-right:15px" share-network='share' title="Share on share"><i class="height:20px fill:#505050" src="/assets/svg/share-alt.svg"></i></a>
+                    <a class="margin-right:15px" share-network="share" title="Share on share"><i class="height:20px fill:#505050" src="/assets/svg/share-alt.svg"></i></a>
                 </div>
-                <a class="margin-right:15px" share-network='share' title="Share on share"><i class="height:20px fill:#505050" src="/assets/svg/share-alt.svg"></i></a>
+                <a class="margin-right:15px" share-network="share" title="Share on share"><i class="height:20px fill:#505050" src="/assets/svg/share-alt.svg"></i></a>
             </div>
             <a href="https://github.com/CoCreate-app/CoCreate-fullscreen" target="_blank" class="margin-right:15px"><i class="height:20px fill:#505050" src="/assets/svg/github.svg"></i></a>
         </div>
-        </div>
+
         <h1 class="max-width:500px margin:20px_10px line-height:1.5 font-size:16px font-weight:100">Toggle any html element to view in fullscreen mode. Easy configuration and targeting using the fullscreen and target attribute.</h1>
         <div id="fullscreen-section" class="display:flex flex-wrap:wrap">
             <div class="flex-grow:1 width:400px width:300px@xs padding:0px_10px margin-top:60px">
                 <div id="fullscreen-install" class="border-bottom:1px_solid_lightgrey" scroll scroll-intersect="color:dodgerblue" scroll-target="#fullscreen-install-section">
-                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target='[href="#fullscreen-install"]'>
+                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target="[href='#fullscreen-install']">
                             <h2 class="padding:5px_0px">Install</h2>
                             <a class="margin-left:10px display:none" href="#fullscreen-install"><i class="height:20px fill:#505050" src="/assets/svg/link.svg"></i></a>
                         </span>
@@ -60,7 +60,7 @@
                 <pre><code class="language-html">&lt;script&gt;https://cdn.cocreate.app/fullscreen/latest/CoCreate-fullscreen.min.js&lt;/script&gt;</code></pre>
 
                 <div id="fullscreen-usage" class="margin-top:80px border-bottom:1px_solid_lightgrey" scroll scroll-intersect="color:dodgerblue" scroll-target="#fullscreen-usage-section">
-                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target='[href="#fullscreen-usage"]'>
+                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target="[href='#fullscreen-usage']">
                             <h2 class="padding:5px_0px">Usage</h2>
                             <a class="margin-left:10px display:none" href="#fullscreen-usage"><i class="height:20px fill:#505050" src="/assets/svg/link.svg"></i></a>
                         </span>
@@ -95,7 +95,7 @@
                     <p class="padding:10px_0px line-height:1.5">This is fullscreen usage</p>
                 </div>
                 <div id="fullscreen-attributes" class="margin-top:80px border-bottom:1px_solid_lightgrey" scroll scroll-intersect="color:dodgerblue" scroll-target="#fullscreen-attributes-section">
-                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target='[href="#fullscreen-attributes"]'>
+                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target="[href='#fullscreen-attributes']">
                             <h2 class="padding:5px_0px">Attributes</h2>
                             <a class="margin-left:10px display:none" href="#fullscreen-attributes"><i class="height:20px fill:#505050" src="/assets/svg/link.svg"></i></a>
                         </span>
@@ -111,7 +111,7 @@
             <div class="flex-grow:1 width:300px padding:0px_10px margin-top:60px border-bottom:1px_solid_lightgrey">
                 <!-- SandBox -->
                 <div id="fullscreen-demo" class="border-bottom:1px_solid_lightgrey" scroll scroll-intersect="color:dodgerblue" scroll-target="#fullscreen-demo-section">
-                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target='[href="#fullscreen-demo"]'>
+                    <span class="display:flex align-items:center width:fit-content" hover="display:block!important" hover-target="[href='#fullscreen-demo']">
                             <h2 class="padding:5px_0px">Demo</h2>
                             <a class="margin-left:10px display:none" href="#fullscreen-demo"><i class="height:20px fill:#505050" src="/assets/svg/link.svg"></i></a>
                         </span>
@@ -126,7 +126,7 @@
                             </div>
         
                             <div id="demo-preview" class="position:relative overflow:auto background-color:white">
-                                <div class="demopreview" class="padding:20px"></div>
+                                <div class="demopreview padding:20px"></div>
                             </div>
                             
                             <div class="font-size:20px position:absolute top:10px right:10px opacity:0.6">
