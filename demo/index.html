@@ -1,111 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <title>Full screen | CoCreateJS</title>
+        <!-- CoCreate Favicon -->
+        <link
+            rel="icon"
+            href="https://cdn.cocreate.app/favicon.ico"
+            type="image/ico"
+            sizes="16x16" />
+        <link rel="stylesheet" href="index.css" type="text/css" />
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-<head>
-    <title>Full screen | CoCreateJS</title>
-    <!-- CoCreate Favicon -->
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-    <link rel="stylesheet" href="index.css" type="text/css" />
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
+    <body>
+        <div id="page-wrapper">
+            <h1>Fullscreen API Demo</h1>
 
-<body>
+            <section>
+                <h2>Only Target</h2>
+                <button fullscreen>self</button>
+                <button fullscreen fullscreen-target="#example2">
+                    Target #example2
+                </button>
+                <button fullscreen fullscreen-closest="section">
+                    closest #example2
+                </button>
+                <button fullscreen fullscreen-next="#example2">
+                    next #example2
+                </button>
+                <button fullscreen fullscreen-previous="#example2">
+                    previous #example2
+                </button>
+            </section>
 
-    <div id="page-wrapper">
+            <section>
+                <div id="example2" class="box">
+                    <h2>#exemple2</h2>
 
-        <h1>Fullscreen API Demo</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed commodo tempus leo, in tristique nibh cursus vitae.
+                        Praesent vel dignissim mauris, sit amet scelerisque est.
+                        Praesent sit amet auctor dui. Duis at urna ipsum. Proin
+                        convallis orci facilisis, pellentesque metus eget,
+                        consectetur est. Donec ultricies elit id dolor
+                        fermentum, eget malesuada nunc vehicula. Duis fringilla
+                        urna eget libero luctus, id vehicula mi hendrerit.
+                        Vestibulum id ultricies dolor. In mollis, libero id
+                        venenatis pretium, libero orci luctus nisl, et rhoncus
+                        sem erat sed orci. Donec vitae volutpat orci.
+                    </p>
 
-        <section>
-            <h2>Only Target</h2>
-            <button fullscreen>self</button>
-            <button fullscreen fullscreen-target="#example2">Target #example2</button>
-            <button fullscreen fullscreen-closest="section">closest #example2</button>
-            <button fullscreen fullscreen-next="#example2">next #example2</button>
-            <button fullscreen fullscreen-previous="#example2">previous #example2</button>
-        </section>
+                    <p>
+                        Aenean mollis lorem turpis, vel pellentesque quam
+                        vestibulum sed. Fusce convallis quis tellus bibendum
+                        maximus. Nunc facilisis eros quis lacus euismod
+                        placerat. Aliquam quis tincidunt massa. Quisque eget
+                        ligula vitae nibh tempus lacinia vel sit amet eros.
+                        Pellentesque interdum erat sed consequat maximus.
+                        Phasellus at viverra massa. In tortor eros, varius
+                        facilisis ligula id, tincidunt maximus elit.
+                        Pellentesque arcu magna, laoreet mollis dignissim et,
+                        condimentum eget nibh. Quisque nec nisi a ligula
+                        volutpat tempus sit amet vitae orci. In congue tellus
+                        risus, eleifend molestie risus condimentum ac.
+                        Vestibulum scelerisque tempor mollis. Integer vulputate
+                        lorem urna, non ornare velit posuere vulputate.
+                    </p>
 
-        <section>
-            <div id="example2" class="box ">
-                <h2>#exemple2</h2>
+                    <p>
+                        Etiam massa ex, sagittis vitae lacus quis, fermentum
+                        gravida ipsum. Nullam vitae augue nec nisi congue
+                        pretium. Mauris non scelerisque nibh, non placerat
+                        nulla. Morbi a placerat lectus, eu sodales massa. Nam
+                        vitae bibendum est, sit amet imperdiet ipsum. Curabitur
+                        sagittis finibus ipsum, nec auctor justo tempus quis.
+                        Donec libero diam, pharetra ac nunc eu, ultrices dictum
+                        enim. Interdum et malesuada fames ac ante ipsum primis
+                        in faucibus. Duis viverra consequat pharetra. Donec at
+                        risus turpis. Duis finibus imperdiet ipsum ac tristique.
+                        Nunc a elementum diam, sit amet rutrum tellus. Mauris
+                        urna quam, commodo et bibendum at, sodales in odio.
+                    </p>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo tempus leo, in tristique nibh
-                    cursus vitae. Praesent vel dignissim mauris, sit amet scelerisque est. Praesent sit amet auctor dui.
-                    Duis at urna ipsum. Proin convallis orci facilisis, pellentesque metus eget, consectetur est. Donec
-                    ultricies elit id dolor fermentum, eget malesuada nunc vehicula. Duis fringilla urna eget libero
-                    luctus, id vehicula mi hendrerit. Vestibulum id ultricies dolor. In mollis, libero id venenatis
-                    pretium, libero orci luctus nisl, et rhoncus sem erat sed orci. Donec vitae volutpat orci.
-                </p>
+                    <p>
+                        Sed enim velit, posuere nec lacus vel, malesuada
+                        efficitur turpis. Nulla sed mauris ac elit ornare
+                        tempor. Cras facilisis varius mi sed malesuada.
+                        Vestibulum congue ipsum ac tellus hendrerit, eget cursus
+                        augue tristique. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. In
+                        ante felis, tincidunt sed consequat vitae, scelerisque
+                        quis lacus. Nunc imperdiet augue ac elit sodales, eget
+                        ultrices ipsum ultricies. Vestibulum lacinia odio quis
+                        velit commodo eleifend. Nullam justo turpis, fermentum a
+                        laoreet sed, ultrices in metus. Phasellus efficitur
+                        consectetur eros, at sagittis leo tincidunt sagittis.
+                        Duis maximus nibh lobortis, viverra nibh id, interdum
+                        odio. Sed non ullamcorper dolor, sed ultrices magna. Ut
+                        ac sem dignissim, sodales magna eget, tincidunt lectus.
+                    </p>
 
-                <p>
-                    Aenean mollis lorem turpis, vel pellentesque quam vestibulum sed. Fusce convallis quis tellus
-                    bibendum maximus. Nunc facilisis eros quis lacus euismod placerat. Aliquam quis tincidunt massa.
-                    Quisque eget ligula vitae nibh tempus lacinia vel sit amet eros. Pellentesque interdum erat sed
-                    consequat maximus. Phasellus at viverra massa. In tortor eros, varius facilisis ligula id, tincidunt
-                    maximus elit. Pellentesque arcu magna, laoreet mollis dignissim et, condimentum eget nibh. Quisque
-                    nec nisi a ligula volutpat tempus sit amet vitae orci. In congue tellus risus, eleifend molestie
-                    risus condimentum ac. Vestibulum scelerisque tempor mollis. Integer vulputate lorem urna, non ornare
-                    velit posuere vulputate.
-                </p>
+                    <p>
+                        Morbi congue, enim et tempor consequat, dolor turpis
+                        commodo mi, vitae tempus velit neque et augue. Proin
+                        eget commodo tortor. In a tortor sagittis, posuere leo
+                        at, volutpat sapien. Maecenas sed euismod odio.
+                        Pellentesque lobortis tellus at congue pharetra.
+                        Curabitur at felis arcu. Pellentesque scelerisque dui
+                        sed euismod vehicula. In fermentum bibendum libero.
+                        Pellentesque malesuada elementum elit. Quisque a urna a
+                        nibh feugiat imperdiet.
+                    </p>
 
-                <p>
-                    Etiam massa ex, sagittis vitae lacus quis, fermentum gravida ipsum. Nullam vitae augue nec nisi
-                    congue pretium. Mauris non scelerisque nibh, non placerat nulla. Morbi a placerat lectus, eu sodales
-                    massa. Nam vitae bibendum est, sit amet imperdiet ipsum. Curabitur sagittis finibus ipsum, nec
-                    auctor justo tempus quis. Donec libero diam, pharetra ac nunc eu, ultrices dictum enim. Interdum et
-                    malesuada fames ac ante ipsum primis in faucibus. Duis viverra consequat pharetra. Donec at risus
-                    turpis. Duis finibus imperdiet ipsum ac tristique. Nunc a elementum diam, sit amet rutrum tellus.
-                    Mauris urna quam, commodo et bibendum at, sodales in odio.
-                </p>
+                    <p>
+                        Sed enim velit, posuere nec lacus vel, malesuada
+                        efficitur turpis. Nulla sed mauris ac elit ornare
+                        tempor. Cras facilisis varius mi sed malesuada.
+                        Vestibulum congue ipsum ac tellus hendrerit, eget cursus
+                        augue tristique. Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. In
+                        ante felis, tincidunt sed consequat vitae, scelerisque
+                        quis lacus. Nunc imperdiet augue ac elit sodales, eget
+                        ultrices ipsum ultricies. Vestibulum lacinia odio quis
+                        velit commodo eleifend. Nullam justo turpis, fermentum a
+                        laoreet sed, ultrices in metus. Phasellus efficitur
+                        consectetur eros, at sagittis leo tincidunt sagittis.
+                        Duis maximus nibh lobortis, viverra nibh id, interdum
+                        odio. Sed non ullamcorper dolor, sed ultrices magna. Ut
+                        ac sem dignissim, sodales magna eget, tincidunt lectus.
+                    </p>
 
-                <p>
-                    Sed enim velit, posuere nec lacus vel, malesuada efficitur turpis. Nulla sed mauris ac elit ornare
-                    tempor. Cras facilisis varius mi sed malesuada. Vestibulum congue ipsum ac tellus hendrerit, eget
-                    cursus augue tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                    inceptos himenaeos. In ante felis, tincidunt sed consequat vitae, scelerisque quis lacus. Nunc
-                    imperdiet augue ac elit sodales, eget ultrices ipsum ultricies. Vestibulum lacinia odio quis velit
-                    commodo eleifend. Nullam justo turpis, fermentum a laoreet sed, ultrices in metus. Phasellus
-                    efficitur consectetur eros, at sagittis leo tincidunt sagittis. Duis maximus nibh lobortis, viverra
-                    nibh id, interdum odio. Sed non ullamcorper dolor, sed ultrices magna. Ut ac sem dignissim, sodales
-                    magna eget, tincidunt lectus.
-                </p>
+                    <p>
+                        Morbi congue, enim et tempor consequat, dolor turpis
+                        commodo mi, vitae tempus velit neque et augue. Proin
+                        eget commodo tortor. In a tortor sagittis, posuere leo
+                        at, volutpat sapien. Maecenas sed euismod odio.
+                        Pellentesque lobortis tellus at congue pharetra.
+                        Curabitur at felis arcu. Pellentesque scelerisque dui
+                        sed euismod vehicula. In fermentum bibendum libero.
+                        Pellentesque malesuada elementum elit. Quisque a urna a
+                        nibh feugiat imperdiet.
+                    </p>
 
-                <p>
-                    Morbi congue, enim et tempor consequat, dolor turpis commodo mi, vitae tempus velit neque et augue.
-                    Proin eget commodo tortor. In a tortor sagittis, posuere leo at, volutpat sapien. Maecenas sed
-                    euismod odio. Pellentesque lobortis tellus at congue pharetra. Curabitur at felis arcu. Pellentesque
-                    scelerisque dui sed euismod vehicula. In fermentum bibendum libero. Pellentesque malesuada elementum
-                    elit. Quisque a urna a nibh feugiat imperdiet.
-                </p>
+                    <button class="fs-exit-page-button">Exit</button>
+                </div>
+            </section>
+        </div>
 
-                <p>
-                    Sed enim velit, posuere nec lacus vel, malesuada efficitur turpis. Nulla sed mauris ac elit ornare
-                    tempor. Cras facilisis varius mi sed malesuada. Vestibulum congue ipsum ac tellus hendrerit, eget
-                    cursus augue tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                    inceptos himenaeos. In ante felis, tincidunt sed consequat vitae, scelerisque quis lacus. Nunc
-                    imperdiet augue ac elit sodales, eget ultrices ipsum ultricies. Vestibulum lacinia odio quis velit
-                    commodo eleifend. Nullam justo turpis, fermentum a laoreet sed, ultrices in metus. Phasellus
-                    efficitur consectetur eros, at sagittis leo tincidunt sagittis. Duis maximus nibh lobortis, viverra
-                    nibh id, interdum odio. Sed non ullamcorper dolor, sed ultrices magna. Ut ac sem dignissim, sodales
-                    magna eget, tincidunt lectus.
-                </p>
-
-                <p>
-                    Morbi congue, enim et tempor consequat, dolor turpis commodo mi, vitae tempus velit neque et augue.
-                    Proin eget commodo tortor. In a tortor sagittis, posuere leo at, volutpat sapien. Maecenas sed
-                    euismod odio. Pellentesque lobortis tellus at congue pharetra. Curabitur at felis arcu. Pellentesque
-                    scelerisque dui sed euismod vehicula. In fermentum bibendum libero. Pellentesque malesuada elementum
-                    elit. Quisque a urna a nibh feugiat imperdiet.
-                </p>
-
-                <button class="fs-exit-page-button">Exit</button>
-            </div>
-        </section>
-    </div>
-
-
-    <!--<script src="../dist/CoCreate-fullscreen.js"></script>-->
-    <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
-</body>
-
+        <!--<script src="../dist/CoCreate-fullscreen.js"></script>-->
+        <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+    </body>
 </html>
