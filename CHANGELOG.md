@@ -1,3 +1,10 @@
+## [1.5.7](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.6...v1.5.7) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([e17c239](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e17c239e64b4cd55030b0a1ded2aa14d42b076eb))
+
 ## [1.5.6](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.5...v1.5.6) (2023-06-02)
 
 
