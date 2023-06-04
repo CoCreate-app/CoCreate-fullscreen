@@ -1,3 +1,11 @@
+## [1.5.8](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.7...v1.5.8) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([c73eee7](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/c73eee70816d77fbaa60f6daab1587477e498e24))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([7f38d2c](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/7f38d2ca5295b695b151eb93d1f2be6eef273255))
+
 ## [1.5.7](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.6...v1.5.7) (2023-06-04)
 
 
