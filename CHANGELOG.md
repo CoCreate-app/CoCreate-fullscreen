@@ -1,3 +1,10 @@
+## [1.5.9](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.8...v1.5.9) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([7ffdad1](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/7ffdad1f15d56ebfd2f9979f50413b855a0ebd36))
+
 ## [1.5.8](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.7...v1.5.8) (2023-06-04)
 
 
