@@ -1,3 +1,10 @@
+## [1.5.14](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.13...v1.5.14) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([7431b64](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/7431b64b18af0104edbbab7684de4746714caf3f))
+
 ## [1.5.13](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.12...v1.5.13) (2023-06-11)
 
 
