@@ -1,3 +1,10 @@
+## [1.5.15](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.14...v1.5.15) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([e67f785](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e67f78569570f2ed0cb9b9b523126cda5a37872b))
+
 ## [1.5.14](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.13...v1.5.14) (2023-06-11)
 
 
