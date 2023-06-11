@@ -1,3 +1,10 @@
+## [1.5.12](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.11...v1.5.12) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([115e19d](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/115e19da509e37a61f4e716431911926e207fa17))
+
 ## [1.5.11](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.10...v1.5.11) (2023-06-10)
 
 
