@@ -1,3 +1,11 @@
+## [1.5.18](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.17...v1.5.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([117c1d7](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/117c1d7e180ae9741dbc821b802f972033c2cb69))
+* testing workflow ([bb388dc](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/bb388dc2727c98d7ab4ef470bbf8588cb171acbf))
+
 ## [1.5.17](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.16...v1.5.17) (2023-06-11)
 
 
