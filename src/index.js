@@ -17,12 +17,12 @@ function initElements(elements) {
         element.addEventListener("click", function (event) {
             let isFullscreen = element.getAttribute('fullscreen')
             if (!isFullscreen || isFullscreen === 'false') {
-                const fullscreenTarget = element.getAttribute('fullscreen-target');
+                const fullscreenTarget = element.getAttribute('fullscreen-selector');
                 const fullscreenClosest = element.getAttribute('fullscreen-closest');
                 const fullscreenParent = element.getAttribute('fullscreen-parent');
                 const fullscreenNext = element.getAttribute('fullscreen-next');
                 const fullscreenPrevious = element.getAttribute('fullscreen-previous');
-            
+
                 let target = document.body;
                 if (fullscreenTarget)
                     target = document.querySelector(fullscreenTarget)
@@ -39,7 +39,7 @@ function initElements(elements) {
                     requestFullscreen(target);
                 }
             } else {
-                element.setAttribute('fullscreen', false)      
+                element.setAttribute('fullscreen', false)
                 exitFullscreen();
             }
         });
@@ -93,16 +93,16 @@ observer.init({
     name: 'CoCreateFullscreen',
     observe: ['addedNodes'],
     target: '[fullscreen]',
-    callback: mutation => 
+    callback: mutation =>
         initElements([mutation.target])
 });
 
 observer.init({
-	name: 'CoCreateFullscreen',
-	observe: ['attributes'],
-	attributeName: ['fullscreen'],
-	target: '[fullscreen]',
-	callback: mutation => {
+    name: 'CoCreateFullscreen',
+    observe: ['attributes'],
+    attributeName: ['fullscreen'],
+    target: '[fullscreen]',
+    callback: mutation => {
         if (mutation.oldValue === null)
             initElements([mutation.target])
     }
