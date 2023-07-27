@@ -5,6 +5,7 @@
 * https://github.com/CoCreate-app/Fullscreen_Toggle/blob/master/LICENSE
 */
 import observer from '@cocreate/observer';
+import { queryElements } from '@cocreate/utils';
 import './index.css';
 
 function init() {
@@ -17,23 +18,14 @@ function initElements(elements) {
         element.addEventListener("click", function (event) {
             let isFullscreen = element.getAttribute('fullscreen')
             if (!isFullscreen || isFullscreen === 'false') {
-                const fullscreenTarget = element.getAttribute('fullscreen-selector');
-                const fullscreenClosest = element.getAttribute('fullscreen-closest');
-                const fullscreenParent = element.getAttribute('fullscreen-parent');
-                const fullscreenNext = element.getAttribute('fullscreen-next');
-                const fullscreenPrevious = element.getAttribute('fullscreen-previous');
+                let target = queryElements({ element, prefix: 'fullscreen' })
 
-                let target = document.body;
-                if (fullscreenTarget)
-                    target = document.querySelector(fullscreenTarget)
-                else if (fullscreenClosest)
-                    target = element.closest(fullscreenClosest)
-                else if (fullscreenParent)
-                    target = element.parentElement.querySelector(fullscreenParent)
-                else if (fullscreenNext)
-                    target = element.nextElementSibling.querySelector(fullscreenNext)
-                else if (fullscreenPrevious)
-                    target = element.previousElementSibling.querySelector(fullscreenPrevious)
+                // TODO: support array?
+                if (target === false)
+                    target = document.body
+                else
+                    target = target[0]
+
                 if (target) {
                     element.setAttribute('fullscreen', true)
                     requestFullscreen(target);
