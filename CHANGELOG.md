@@ -1,3 +1,18 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.23...v1.6.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([01d9fc0](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/01d9fc0a8de86b4472acc13af72316e37df07005))
+* replace -target -selector ([f9233cc](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/f9233ccb149af46dc93445e57d1d7c7995f084fb))
+* webpack.config and package.json make use of mode=production instead of process.env ([32ba4ba](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/32ba4bafd5d36fd26e71178b90149cd65e07993c))
+
+
+### Features
+
+* Add support for querying elements in fullscreen toggle ([a0eec19](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/a0eec197fd2b4bd99b44df422628791c1e429f81))
+* name attribute and variable renamed to key ([820630c](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/820630c525c3021dbc7d3796621d8dfb58aac9be))
+
 ## [1.5.23](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.5.22...v1.5.23) (2023-06-14)
 
 
