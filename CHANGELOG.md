@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.7.0...v1.7.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([0fe01be](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/0fe01be4f52f8dcfe7ee361edcba0cc57a5f4b56))
+* replace cdn with /dist ([7b3f3bb](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/7b3f3bb2f1820f24f3131d7506a2846450333f4c))
+* update file uploader ([73f257d](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/73f257dd0c29e0cf90f9cb2b3561c9c36a28abee))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.6.0...v1.7.0) (2023-08-17)
 
 
