@@ -8,17 +8,16 @@ module.exports = {
             "object": {
                 "_id": "601f49be6b402c72efc07e09",
                 "name": "index.html",
-                "path": "/docs/fullscreen/index.html",
+                "path": "/docs/fullscreen",
+                "pathname": "/docs/fullscreen/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
                     "*",
                     "general.cocreate.app"
                 ],
-                "directory": "/docs/fullscreen",
-                "parentDirectory": "{{parentDirectory}}",
+                "directory": "fullscreen",
                 "content-type": "{{content-type}}",
-                "public": "true",
-                "website_id": "644d4bff8036fb9d1d1fd69c"
+                "public": "true"
             }
         }
     ]
