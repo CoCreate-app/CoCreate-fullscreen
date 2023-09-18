@@ -1,3 +1,11 @@
+## [1.8.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.8.1...v1.8.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([93c2a9e](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/93c2a9ef07b2cd036f5f266c09f302124db35283))
+* Update CoCreate depndencies to latest versions ([9521dc9](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/9521dc9ccc86dfde470c1c4fdcab383a08eb21e7))
+
 ## [1.8.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.8.0...v1.8.1) (2023-08-21)
 
 
