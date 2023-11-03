@@ -1,3 +1,11 @@
+## [1.8.8](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.8.7...v1.8.8) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([6eae4e9](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/6eae4e91d9c7a5ebde80fd52b006fbe137490f81))
+* update dependencies to the lates versions ([8c5068b](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/8c5068b44e8a8e15d16e2afd53e93db61f203963))
+
 ## [1.8.7](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.8.6...v1.8.7) (2023-10-25)
 
 
