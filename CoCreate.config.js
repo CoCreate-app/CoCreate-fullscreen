@@ -12,8 +12,7 @@ module.exports = {
                 "pathname": "/docs/fullscreen/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
-                    "*",
-                    "general.cocreate.app"
+                    "*"
                 ],
                 "directory": "fullscreen",
                 "content-type": "{{content-type}}",
