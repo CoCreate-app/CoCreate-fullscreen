@@ -1,3 +1,11 @@
+## [1.8.9](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.8.8...v1.8.9) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([e6e06a8](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e6e06a896af3f355fe0472baa82d753306189001))
+* update host ([c7ead54](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/c7ead5499eb47a036e58ded96c66f76afd78212f))
+
 ## [1.8.8](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.8.7...v1.8.8) (2023-11-03)
 
 
