@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.9.0...v1.10.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([f4b709c](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/f4b709c860af43b96dda65438e18e0cc9c1316f6))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([310dad4](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/310dad4de73f1f4cdc24345e5b8f991b4feb11d5))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.8.10...v1.9.0) (2023-11-19)
 
 
