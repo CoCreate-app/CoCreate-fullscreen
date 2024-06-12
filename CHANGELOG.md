@@ -1,3 +1,11 @@
+## [1.11.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.11.1...v1.11.2) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([5a3ca3c](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/5a3ca3c1973b8581408afbaf4be91417adeb9b3c))
+* svg icon class ([56449cf](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/56449cfc5f256dcb4824a0b21ec1a7e9b5b9436e))
+
 ## [1.11.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.11.0...v1.11.1) (2024-04-29)
 
 
