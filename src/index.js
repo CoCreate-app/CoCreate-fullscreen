@@ -84,7 +84,7 @@ function exitFullscreen() {
 observer.init({
     name: 'CoCreateFullscreen',
     observe: ['addedNodes'],
-    target: '[fullscreen]',
+    selector: '[fullscreen]',
     callback: mutation =>
         initElements([mutation.target])
 });
@@ -93,7 +93,7 @@ observer.init({
     name: 'CoCreateFullscreen',
     observe: ['attributes'],
     attributeName: ['fullscreen'],
-    target: '[fullscreen]',
+    selector: '[fullscreen]',
     callback: mutation => {
         if (mutation.oldValue === null)
             initElements([mutation.target])
