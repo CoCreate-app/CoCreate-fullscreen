@@ -1,3 +1,16 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.11.2...v1.12.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* observer taget has been renamed to selector ([e88dde8](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/e88dde860318429de3a246227b41bf352e6be0a1))
+* pretier.config.js and file formating ([5fe15e4](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/5fe15e4e3075a9b2bbf0737c8d861b73f2985fb9))
+
+
+### Features
+
+* add prettier.config.js and format files ([171bfbd](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/171bfbdc9946416518c02b4424c50dfcfb0318e2))
+
 ## [1.11.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.11.1...v1.11.2) (2024-06-12)
 
 
