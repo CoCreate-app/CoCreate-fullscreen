@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.12.0...v1.12.1) (2024-12-14)
+
+
+### Bug Fixes
+
+* default target is documentElement ([df0cdd8](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/df0cdd8503d2bb3af59fb01496d551000ffd0dac))
+
 # [1.12.0](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.11.2...v1.12.0) (2024-11-04)
 
 
