@@ -1,3 +1,11 @@
+## [1.12.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.12.1...v1.12.2) (2025-04-11)
+
+
+### Bug Fixes
+
+* css syntax ([c3614dc](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/c3614dcefc3e16952a1eb2b1d3a7ee791b125085))
+* update observer observe param to type and and attributeName to attributeFilter ([c65c03e](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/c65c03e57370b3c7738ff2d8006cc5da5d3d1c83))
+
 ## [1.12.1](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.12.0...v1.12.1) (2024-12-14)
 
 
