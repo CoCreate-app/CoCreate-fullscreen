@@ -18,11 +18,15 @@ function initElements(elements) {
 		element.addEventListener("click", function (event) {
 			let isFullscreen = element.getAttribute("fullscreen");
 			if (!isFullscreen || isFullscreen === "false") {
-				let target = queryElements({ element, prefix: "fullscreen" });
+				let target = document.documentElement;
 
 				// TODO: support array?
-				if (target === false) target = document.documentElement;
-				else target = target[0];
+				if (element.hasAttribute("fullscreen-query")) {
+					target = queryElements({
+						element,
+						prefix: "fullscreen"
+					})[0];
+				}
 
 				if (target) {
 					element.setAttribute("fullscreen", true);
