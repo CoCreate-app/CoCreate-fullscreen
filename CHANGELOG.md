@@ -1,3 +1,13 @@
+## [1.12.3](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.12.2...v1.12.3) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([03faf0b](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/03faf0bcc78f1a90008d1e65cef9afa280bcd3fd))
+* update query attributes ([bd2b321](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/bd2b32114e1b48e3b496240ace12746250d0ebfc))
+* updated cocreate modules versions ([af9ab98](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/af9ab9868f61afc732c2d80c1880dcc946fba41a))
+* webpack.config and devdependencies ([707b619](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/707b619481f75026e59700f39d9a797de9663676))
+
 ## [1.12.2](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.12.1...v1.12.2) (2025-04-11)
 
 
