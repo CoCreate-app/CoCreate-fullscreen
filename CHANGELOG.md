@@ -1,3 +1,10 @@
+## [1.12.5](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.12.4...v1.12.5) (2026-02-04)
+
+
+### Bug Fixes
+
+* update worklow ([a85d8e6](https://github.com/CoCreate-app/CoCreate-fullscreen/commit/a85d8e69d443289b5faf1cb75d838d2a9fdd0908))
+
 ## [1.12.4](https://github.com/CoCreate-app/CoCreate-fullscreen/compare/v1.12.3...v1.12.4) (2025-05-01)
 
 
